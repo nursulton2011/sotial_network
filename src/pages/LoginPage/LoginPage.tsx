@@ -78,7 +78,7 @@ export const LoginPage = () => {
         />
         <Button type="submit" text={"Войти"} />
       </form>
-      <AppLink text="Забыли пароль?" href="#" />
+      <AppLink text="Забыли пароль?" href="" />
       <AuthWith />
     </div>
   );
