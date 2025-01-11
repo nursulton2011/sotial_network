@@ -10,7 +10,7 @@ interface IRegistrationPage {
   userpassword: string;
   userlastname: string;
   usercity: string;
-  userphone: number;
+  userphone: string;
   username: string;
 }
 
@@ -52,7 +52,7 @@ export const RegistrationPage = () => {
     defaultValues: {
       useremail: "",
       userpassword: "",
-      userphone: ``,
+      userphone: "",
       usercity: "",
       userlastname: "",
       username: "",
@@ -96,7 +96,7 @@ export const RegistrationPage = () => {
         />
 
         <Controller
-          name="    "
+          name="usercity"
           control={control}
           render={({ field }) => (
             <Input
