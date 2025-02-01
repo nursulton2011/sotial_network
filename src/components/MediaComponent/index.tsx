@@ -1,1 +1,0 @@
-export{MediaComponent} from "./MediaComponent"

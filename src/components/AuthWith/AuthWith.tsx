@@ -2,10 +2,7 @@ export const AuthWith = () => {
   return (
     <div className="registration">
       <span>
-        У вас нет аккаунта?{" "}
-        <a href="../../pages/RegistrationPage/RegistrationPage.tsx">
-          Зарегистрироваться
-        </a>
+        У вас нет аккаунта? <a href="/reg">Зарегистрироваться</a>
       </span>
       <p>Войти с помощью</p>
       <div className="icons-wrapper">
